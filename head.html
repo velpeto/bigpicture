@@ -1,58 +1,62 @@
 <!doctype html>
 <html>
+  <link rel="stylesheet" href="style.css">
 <head>
-  <title>head의 </title>
-  <h1><a href="index.html">HTML 이용하기</a></h1>
-  <ul>
-    <li><a href="head.html">head의 구성 태그</a></li><br>
-    <li><a href="body.html">body의 구성 태그</a></li><br>
-    <li><a href="속성.html">속성</a></li><br>
-    <li><a href="다짐.html">앞으로의 다짐</a></li><br>
-  </ul>
-  <hr/>
+  <title>head의 구성 태그</title>
 </head>
-<body link="blue" alink="green" vlink="red">
-  <p style="margin-top:50px;"><h2><strong>head의 구성 태그</strong></h2></p>
-  <p style="margin-top:40px;">
-    <ul>
-      <P><li>title,/title이라는 태그.</li>
-      이 태그는 웹브라우저의 제목으로 나타낼 이름을 지정해줍니다.<br></P>
-      <p><li>h1,/h1이라는 태그</li>
-      이 태그는 글자의 크기를 조절할떄 쓰이며 최대 6까지 있습니다.<br></P>
-      <p><li>ul,/ul이라는 태그</li>
-      이 태그는 li의 어미태그중 하나로 목록을 동그라미로 표시해줄때 나타냅니다.<br><p>
-      <p><li>ol,/ol이라는 태그</li>
-      이 태그는 li의 어미태그중 하나로 목록을 숫자로 표시해줄때 나타냅니다.<br></p>
-      <p><li>li,/li이라는 태그</li>
-      이 태그는 목차를 나타내는 태그로 위에 있는 태그들의 아들태그입니다.<br></p>
+<body link="black" alink="green" vlink="black">
+  <h1><a href="index.html">HTML 이용하기</a></h1>
+  <div id="grid">
+    <ul id="d">
+      <li><a href="head.html" style="font-size:125%">head의 구성 태그</a></li><br>
+      <li><a href="body.html">body의 구성 태그</a></li><br>
+      <li><a href="속성.html">속성</a></li><br>
+      <li><a href="다짐.html">앞으로의 다짐</a></li><br>
     </ul>
-  </p>
-  <p style="margin-top:20px">
-    <h6>이것은 저의 주관적인 의견이며 틀릴수도 있습니다.</h6>
-  </p>
-  <p>
-    <div id="disqus_thread"></div>
-      <script>
+    <div>
+    <p><h2 class="margin"><strong>head의 구성 태그</strong></h2></p>
+    <p style="margin:10px;">
+      <ul>
+        <P><li>title,/title이라는 태그.</li>
+        이 태그는 웹브라우저의 제목으로 나타낼 이름을 지정해줍니다.<br></P>
+        <p><li>h1,/h1이라는 태그</li>
+        이 태그는 글자의 크기를 조절할떄 쓰이며 최대 6까지 있습니다.<br></P>
+        <p><li>ul,/ul이라는 태그</li>
+        이 태그는 li의 어미태그중 하나로 목록을 동그라미로 표시해줄때 나타냅니다.<br></p>
+        <p><li>ol,/ol이라는 태그</li>
+        이 태그는 li의 어미태그중 하나로 목록을 숫자로 표시해줄때 나타냅니다.<br></p>
+        <p><li>li,/li이라는 태그</li>
+        이 태그는 목차를 나타내는 태그로 위에 있는 태그들의 아들태그입니다.<br></p>
+      </ul>
+    </p>
+    <p style="margin-top:20px">
+      <h6 style="text-align:right">이것은 저의 주관적인 의견이며 틀릴수도 있습니다.</h6>
+    </p>
+    <p>
+      <div id="disqus_thread"></div>
+        <script>
 
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://bingpicture.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://bingpicture.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-  </p>
-  <center><img style="margin-top:20px;" src="https://cdn.pixabay.com/photo/2017/12/09/21/33/sunset-3008779_960_720.jpg" width="50%"></center>
+    </p>
+    <center><img style="margin-top:20px;" src="https://cdn.pixabay.com/photo/2017/12/09/21/33/sunset-3008779_960_720.jpg" width="70%"></center>
+    </div>
+  </div>
 </body>
 </html>
